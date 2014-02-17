@@ -264,8 +264,14 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 840px;
   padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.inner-footer {
+  position: relative;
+  max-width: 440px;
   margin: 0 auto;
 }
 
@@ -303,6 +309,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  padding-left: 200px;
 }
 
 #project_tagline {
@@ -362,8 +369,19 @@ Full-Width Styles
   padding-top: 40px;
 }
 
+.main {
+	width: 640px;
+}
+
 #footer_wrap {
   background: #212121;
+}
+
+.side {
+	width: 200px;
+	height: 600px;
+	float: left;
+	position: relative;
 }
 
 
